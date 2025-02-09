@@ -1,17 +1,14 @@
-# Welcome to the Cyber Security Laboratory
+# Welcome to University of Chinese Academy of Sciences Advanced AI Applied Technology Laboratory (AAAI LAB)
 
 <p style="text-align:justify">
-We are a research group at the College of Computer Science, Chongqing University, China. We aim to explore and solve potential security problems in the field of artificial intelligence and computer science with the rapid development of computer technology in the new environment of the 21st century.
-</p>
+Advanced AI Applied Technology Laboratory (AAAI LAB) was founded by Professor Qi Honggang and is now affiliated to the School of Computer Science and Technology, University of Chinese Academy of Sciences. At present, the main members of AAAI LAB include about 30 doctoral/master students, published more than 150 papers, and Google scholar citations more than 10,000 times. The research field of the laboratory focuses on cutting-edge artificial intelligence technology and cross-applied research in multiple fields, such as medicine, law, engineering and other application fields. The laboratory strives to create a harmonious, communication, exploration, speculation, mutual assistance, cooperation of scientific research atmosphere.
 
 {{< slide >}}
 
-<p style="text-align:justify">
-Our team tries to ensure the security and privacy of various computer systems and also explore the new security and privacy research directions of big data, machine learning, networks and hardware. We hope to be able to put forward new theory and promote the development in the computer field. We also hope our works can be applied to solve the information security problems in several areas of life, which, in turn, promotes the development and progress of the society.
-</p>
+
 
 <p style="text-align:justify">
-We are at Chongqing University that is a national university in the Shapingba district of Chongqing, China. It is a member of the Project 211 and Project 985 which aims to transform Chinese universities into better research institutions.
+ We are located in YanQi Lake Campus of University of Chinese Academy of Sciences 
 </p>
 
 # News
