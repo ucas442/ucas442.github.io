@@ -37,7 +37,7 @@
                 , <b>CCF Rank {{.ccf_rank}}</b>
                 {{ end }}
                 {{ if .ucas_rank }}
-                , <b>CSL@UCAS Rank {{.ucas_rank}}</b>
+                , <b>AAAI@UCAS Rank {{.ucas_rank}}</b>
                 {{ end }}
             </p>
         </li>
