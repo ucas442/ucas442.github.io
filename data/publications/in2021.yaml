@@ -78,17 +78,17 @@
   highlight: Oral
   authors: Wei Gao, Shangwei Guo, Tianwei Zhang, Han Qiu, Yonggang Wen, Yang Liu
   publication: IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
-  cqu_rank: A+
+  ucas_rank: A+
 
 - title: "DeepSweep: An Evaluation Framework for Mitigating DNN Backdoor Attacks using Data Augmentation"
   authors: Han Qiu, Yi Zeng, Shangwei Guo, Tianwei Zhang, Meikang Qiu, Bhavani Thuraisingham
   publication: ACM ASIA Conference on Computer and Communications Security (AsiaCCS)
-  cqu_rank: A
+  ucas_rank: A
 
 - title: "Stealing Deep Reinforcement Learning Models for Fun and Profit"
   authors: Kangjie Chen, Shangwei Guo, Tianwei Zhang, Xiaofei Xie, Yang Liu
   publication: ACM ASIA Conference on Computer and Communications Security (AsiaCCS)
-  cqu_rank: A
+  ucas_rank: A
 
 - title: Temporal Watermarks for Deep Reinforcement Learning Models
   authors: Kangjie Chen, Shangwei Guo, Tianwei Zhang, Shuxin Li, Yang Liu
@@ -123,7 +123,7 @@
   authors: Qiao Zhang, Chunsheng Xin, Hongyi Wu
   publication: Network and Distributed System Security (NDSS) Symposium
   link: https://www.ndss-symposium.org/wp-content/uploads/ndss2021_5C-3_24351_paper.pdf
-  cqu_rank: A+
+  ucas_rank: A+
 
 - title: "Exploiting Beam Features for Spoofing Attack Detection in mmWave 60-GHz IEEE 802.11ad Networks"
   authors: Ning Wang, Long Jiao, Pu Wang, Weiwei Li, Kai Zeng

@@ -15,7 +15,7 @@
   publication: 期刊或者会议名称
   link: 文档连接（没有则不要此项）
   ccf_rank: CCF分级（没有则不要此项）
-  cqu_rank: 实验室分级（没有则不要此项）
+  ucas_rank: 实验室分级（没有则不要此项）
 ```
 
 值的注意的是如果需要增加一个年份，则需要在data目录中创建对应年份的publicationsxxxx.yaml文件，然后编辑`layouts/shortcodes/publications-en.html`以及`layouts/shortcodes/publications-zh.html`，添加对应内容即可，例如增加2023则在`<h2 id="2022">2022</h2>`上方添加如下内容
@@ -36,8 +36,8 @@
                 {{ if .ccf_rank }}
                 , <b>CCF Rank {{.ccf_rank}}</b>
                 {{ end }}
-                {{ if .cqu_rank }}
-                , <b>CSL@CQU Rank {{.cqu_rank}}</b>
+                {{ if .ucas_rank }}
+                , <b>CSL@UCAS Rank {{.ucas_rank}}</b>
                 {{ end }}
             </p>
         </li>
@@ -93,7 +93,7 @@ Step 1: 安装 Hugo，[参考文档](https://gohugo.io/getting-started/installin
 Step 2: 克隆仓库
 ```bash
 # --recursive 选项是为了将主题submodule一并克隆
-git clone --recursive git@github.com:csl-cqu/csl-cqu.github.io.git
+git clone --recursive git@github.com:ucas442/ucas442.github.io.git
 ```
 
 Step 3: 完成开发

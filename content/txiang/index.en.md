@@ -8,7 +8,7 @@ draft: false
 <div style="font-size: 14px">
 College of Computer Science, Chongqing University<br>
 174# Shazheng Street, Shapingba District, Chongqing 400044, China<br>
-Email: <a href="mailto:txiang@cqu.edu.cn">txiang@cqu.edu.cn</a><br>
+Email: <a href="mailto:txiang@ucas.edu.cn">txiang@ucas.edu.cn</a><br>
 </div>
 </div>
 <img src="/team/TaoXiang.jpeg" style="width: 90px; flow: right">

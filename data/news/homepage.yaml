@@ -40,7 +40,7 @@ en:
     date: 2022-4
     icon: 🎉
 
-  - title: One paper accepted by NAACL (<b>CSL@CQU A</b>)! Congrats!
+  - title: One paper accepted by NAACL (<b>CSL@UCAS A</b>)! Congrats!
     date: 2022-4
     icon: 🎉
 
@@ -52,7 +52,7 @@ en:
     date: 2022-2
     icon: 🎉
 
-  - title: "Two papers accepted by ICLR (one <b style='color: red'>spotlight</b> <b>CSL@CQU A+</b> and one poster <b>CSL@CQU A</b>)!"
+  - title: "Two papers accepted by ICLR (one <b style='color: red'>spotlight</b> <b>CSL@UCAS A+</b> and one poster <b>CSL@UCAS A</b>)!"
     date: 2022-1
     icon: 🎉
 
@@ -101,7 +101,7 @@ zh:
     date: 2022-4
     icon: 🎉
 
-  - title: 一篇文章被NAACL接收(<b>CSL@CQU A</b>)!
+  - title: 一篇文章被NAACL接收(<b>CSL@UCAS A</b>)!
     date: 2022-4
     icon: 🎉
 
@@ -113,7 +113,7 @@ zh:
     date: 2022-2
     icon: 🎉
 
-  - title: "两篇文章被ICLR接收(一篇<b style='color: red'>spotlight</b> <b>CSL@CQU A+</b> 和一篇poster <b>CSL@CQU A</b>)!!"
+  - title: "两篇文章被ICLR接收(一篇<b style='color: red'>spotlight</b> <b>CSL@UCAS A+</b> 和一篇poster <b>CSL@UCAS A</b>)!!"
     date: 2022-1
     icon: 🎉
 
