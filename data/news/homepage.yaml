@@ -1,99 +1,38 @@
 # 英文主页展示的新闻
 en:
 - title: YOLO-VSF: an Improved YOLO Model by Incorporating Attention Mechanism for Object Detection in Traffic Scenes
-  date: 2024-07
+  date: 2024-7
   icon: 🎉
   
 - title: Enhancing Adversarial Robustness of DNNS Via Weight Decorrelation in Training
-  date: 2024
+  date: 2024-6
   icon: 🎉
 
 - title: LandmarkBreaker: A Proactive Method to Obstruct DeepFakes Via Disrupting Facial Landmark Extraction
-  date: 2024
+  date: 2024-1
   icon: 🎉
 
 - title: Infrastructure-Side Point Cloud Object Detection Via Multi-Frame Aggregation and Multi-Scale Fusion
-  date: 2024
+  date: 2024-1
   icon: 🎉
 
-- title: Adaptive Meta-Knowledge Transfer Network for Few-Shot Object Detection in Very High Resolution Remote Sensing Images
-  date: 2024
-  icon: 🎉
 
-- title: AdaNI: Adaptive Noise Injection to Improve Adversarial Robustness
-  date: 2024
-  icon: 🎉
-
-- title: CenterNet Plus Plus for Object Detection
-  date: 2024
-  icon: 🎉
-
-- title: COMICS: End-to-end Bi-grained Contrastive Learning for Multi-face Forgery Detection
-  date: 2024
-  icon: 🎉
-
-- title: A Fast CU Partition Algorithm for AVS3 Based on Adaptive Tree Search and Pruning Optimization
-  date: 2024
-  icon: 🎉
-
-- title: A Novel Framework for High Resolution Air Quality Index Prediction with Interpretable Artificial Intelligence and Uncertainties Estimation
-  date: 2024
-  icon: 🎉
-
-- title: A Diffusion Model Based Quality Enhancement Method for HEVC Compressed Video
-  date: 2024
-  icon: 🎉
-
-- title: FakeTracer: Catching Face-swap DeepFakes Via Implanting Traces in Training
-  date: 2024
-  icon: 🎉
 
 # 中文主页展示的新闻
 zh:
  - title: YOLO-VSF: an Improved YOLO Model by Incorporating Attention Mechanism for Object Detection in Traffic Scenes
-  date: 2024-07
+  date: 2024-7
   icon: 🎉
   
 - title: Enhancing Adversarial Robustness of DNNS Via Weight Decorrelation in Training
-  date: 2024
+  date: 2024-1
   icon: 🎉
 
 - title: LandmarkBreaker: A Proactive Method to Obstruct DeepFakes Via Disrupting Facial Landmark Extraction
-  date: 2024
+  date: 2024-1
   icon: 🎉
 
 - title: Infrastructure-Side Point Cloud Object Detection Via Multi-Frame Aggregation and Multi-Scale Fusion
-  date: 2024
+  date: 2024-1
   icon: 🎉
 
-- title: Adaptive Meta-Knowledge Transfer Network for Few-Shot Object Detection in Very High Resolution Remote Sensing Images
-  date: 2024
-  icon: 🎉
-
-- title: AdaNI: Adaptive Noise Injection to Improve Adversarial Robustness
-  date: 2024
-  icon: 🎉
-
-- title: CenterNet Plus Plus for Object Detection
-  date: 2024
-  icon: 🎉
-
-- title: COMICS: End-to-end Bi-grained Contrastive Learning for Multi-face Forgery Detection
-  date: 2024
-  icon: 🎉
-
-- title: A Fast CU Partition Algorithm for AVS3 Based on Adaptive Tree Search and Pruning Optimization
-  date: 2024
-  icon: 🎉
-
-- title: A Novel Framework for High Resolution Air Quality Index Prediction with Interpretable Artificial Intelligence and Uncertainties Estimation
-  date: 2024
-  icon: 🎉
-
-- title: A Diffusion Model Based Quality Enhancement Method for HEVC Compressed Video
-  date: 2024
-  icon: 🎉
-
-- title: FakeTracer: Catching Face-swap DeepFakes Via Implanting Traces in Training
-  date: 2024
-  icon: 🎉
