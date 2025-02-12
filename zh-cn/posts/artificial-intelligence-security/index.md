@@ -12,9 +12,9 @@ The past several years have witnessed the rapid development of Deep Learning tec
 
 🎉  Apr. 2022: One paper accepted by TOMM (**CCF B**)! Congrats to Honghong!
 
-🎉  Apr. 2022: One paper accepted by NAACL (**CSL@CQU A**)! Congrats!
+🎉  Apr. 2022: One paper accepted by NAACL (**CSL@UCAS A**)! Congrats!
 
-🎉  Jan. 2022: two papers accepted by ICLR (one <font  color=red >spotlight</font> **CSL@CQU A+** and one poster **CSL@CQU A**)! Congrats to Xiaoxuan and Kangjie!
+🎉  Jan. 2022: two papers accepted by ICLR (one <font  color=red >spotlight</font> **CSL@UCAS A+** and one poster **CSL@UCAS A**)! Congrats to Xiaoxuan and Kangjie!
 
 🎉  Jan. 2022: our paper "EGM: An Efficient Generative Model for Unrestricted Adversarial Examples" accepted by TOSN (**CCF B**). Congrats to Hangcheng!
 
@@ -52,7 +52,7 @@ The past several years have witnessed the rapid development of Deep Learning tec
 
   Han Qiu, Yi Zeng, Shangwei Guo, Tianwei Zhang, Meikang Qiu, Bhavani Thuraisingham
 
-  *ACM ASIA Conference on Computer and Communications Security (AsiaCCS)*, 2021 **CSL@CQU Rank A**
+  *ACM ASIA Conference on Computer and Communications Security (AsiaCCS)*, 2021 **CSL@UCAS Rank A**
 
 ## AI Privacy
 
@@ -66,7 +66,7 @@ The past several years have witnessed the rapid development of Deep Learning tec
 
   Xiaoxuan Lou, Shangwei Guo, Jiwei Li, Yaoxin Wu, Tianwei Zhang
 
-  *International Conference on Learning Representations (ICLR)*, 2022 **CSL@CQU Rank A+**
+  *International Conference on Learning Representations (ICLR)*, 2022 **CSL@UCAS Rank A+**
 
 * **[Fine-tuning Is Not Enough: A Simple yet Effective Watermark Removal Attack for DNN Models](https://arxiv.org/abs/2009.08697)**
 
@@ -78,7 +78,7 @@ The past several years have witnessed the rapid development of Deep Learning tec
 
   Kangjie Chen, Shangwei Guo, Tianwei Zhang, Xiaofei Xie, Yang Liu
 
-  *ACM ASIA Conference on Computer and Communications Security (AsiaCCS)*, 2021 **CSL@CQU Rank A**
+  *ACM ASIA Conference on Computer and Communications Security (AsiaCCS)*, 2021 **CSL@UCAS Rank A**
 
 * **[Temporal Watermarks for Deep Reinforcement Learning Models](https://personal.ntu.edu.sg/tianwei.zhang/paper/aamas2021.pdf)**
 
@@ -123,10 +123,10 @@ The past several years have witnessed the rapid development of Deep Learning tec
 
   Leilei Gan, Jiwei Li, Tianwei Zhang, Xiaoya Li, Yuxian Meng, Fei Wu, Yi Yang, Shangwei Guo, Chun Fan
 
-  *North American Chapter of the Association for Computational Linguistics (NAACL)*, **CSL@CQU Rank A**
+  *North American Chapter of the Association for Computational Linguistics (NAACL)*, **CSL@UCAS Rank A**
 
 * **[BadPre: Task-agnostic Backdoor Attacks to Pre-trained NLP Foundation Models](https://arxiv.org/abs/2110.02467)**
 
   Kangjie Chen, Yuxian Meng, Xiaofei Sun, Shangwei Guo, Tianwei Zhang, Jiwei Li, Chun Fan
 
-  *International Conference on Learning Representations (ICLR)*, **CSL@CQU Rank A**
+  *International Conference on Learning Representations (ICLR)*, **CSL@UCAS Rank A**
