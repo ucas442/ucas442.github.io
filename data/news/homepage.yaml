@@ -1,38 +1,35 @@
 # 英文主页展示的新闻
 en:
-- title: YOLO-VSF: an Improved YOLO Model by Incorporating Attention Mechanism for Object Detection in Traffic Scenes
-  date: 2024-7
-  icon: 🎉
+  - title: YOLO-VSF: an Improved YOLO Model by Incorporating Attention Mechanism for Object Detection in Traffic Scenes
+    date: 2024-7
+    icon: 🎉
   
-- title: Enhancing Adversarial Robustness of DNNS Via Weight Decorrelation in Training
-  date: 2024-6
-  icon: 🎉
+  - title: Enhancing Adversarial Robustness of DNNS Via Weight Decorrelation in Training
+    date: 2024-6
+    icon: 🎉
 
-- title: LandmarkBreaker: A Proactive Method to Obstruct DeepFakes Via Disrupting Facial Landmark Extraction
-  date: 2024-1
-  icon: 🎉
+  - title: LandmarkBreaker: A Proactive Method to Obstruct DeepFakes Via Disrupting Facial Landmark Extraction
+    date: 2024-1
+    icon: 🎉
 
-- title: Infrastructure-Side Point Cloud Object Detection Via Multi-Frame Aggregation and Multi-Scale Fusion
-  date: 2024-1
-  icon: 🎉
-
-
+  - title: Infrastructure-Side Point Cloud Object Detection Via Multi-Frame Aggregation and Multi-Scale Fusion
+    date: 2024-1
+    icon: 🎉
 
 # 中文主页展示的新闻
 zh:
- - title: YOLO-VSF: an Improved YOLO Model by Incorporating Attention Mechanism for Object Detection in Traffic Scenes
-  date: 2024-7
-  icon: 🎉
+  - title: YOLO-VSF: an Improved YOLO Model by Incorporating Attention Mechanism for Object Detection in Traffic Scenes
+    date: 2024-7
+    icon: 🎉
   
-- title: Enhancing Adversarial Robustness of DNNS Via Weight Decorrelation in Training
-  date: 2024-1
-  icon: 🎉
+  - title: Enhancing Adversarial Robustness of DNNS Via Weight Decorrelation in Training
+    date: 2024-1
+    icon: 🎉
 
-- title: LandmarkBreaker: A Proactive Method to Obstruct DeepFakes Via Disrupting Facial Landmark Extraction
-  date: 2024-1
-  icon: 🎉
+  - title: LandmarkBreaker: A Proactive Method to Obstruct DeepFakes Via Disrupting Facial Landmark Extraction
+    date: 2024-1
+    icon: 🎉
 
-- title: Infrastructure-Side Point Cloud Object Detection Via Multi-Frame Aggregation and Multi-Scale Fusion
-  date: 2024-1
-  icon: 🎉
-
+  - title: Infrastructure-Side Point Cloud Object Detection Via Multi-Frame Aggregation and Multi-Scale Fusion
+    date: 2024-1
+    icon: 🎉
