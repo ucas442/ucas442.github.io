@@ -1,122 +1,99 @@
 # 英文主页展示的新闻
 en:
-  - title: Two paper accepted by ACM MM (<b>CCF A</b>)! Congrats to Hangcheng!
-    date: 2022-6
-    icon: 🎉
+- title: YOLO-VSF: an Improved YOLO Model by Incorporating Attention Mechanism for Object Detection in Traffic Scenes
+  date: 2024-07
+  icon: 🎉
+  
+- title: Enhancing Adversarial Robustness of DNNS Via Weight Decorrelation in Training
+  date: 2024
+  icon: 🎉
 
-  - title: One paper accepted by TCSVT! Congrats!
-    date: 2022-6
-    icon: 🎉
+- title: LandmarkBreaker: A Proactive Method to Obstruct DeepFakes Via Disrupting Facial Landmark Extraction
+  date: 2024
+  icon: 🎉
 
-  - title: One paper accepted by TPDS (<b>CCF A</b>)! Congrats!
-    date: 2022-5
-    icon: 🎉
+- title: Infrastructure-Side Point Cloud Object Detection Via Multi-Frame Aggregation and Multi-Scale Fusion
+  date: 2024
+  icon: 🎉
 
-  - title: One paper accepted by TMM (<b>CCF B</b>)! Congrats!
-    date: 2022-5
-    icon: 🎉
+- title: Adaptive Meta-Knowledge Transfer Network for Few-Shot Object Detection in Very High Resolution Remote Sensing Images
+  date: 2024
+  icon: 🎉
 
-  - title: One paper accepted by TBD! Congrats to Biwen and Honghong!
-    date: 2022-5
-    icon: 🎉
+- title: AdaNI: Adaptive Noise Injection to Improve Adversarial Robustness
+  date: 2024
+  icon: 🎉
 
-  - title: One paper accepted by TDSC (<b>CCF A</b>)! Congrats!
-    date: 2022-5
-    icon: 🎉
+- title: CenterNet Plus Plus for Object Detection
+  date: 2024
+  icon: 🎉
 
-  - title: One paper accepted by INFOCOM (<b>CCF A</b>)! Congrats!
-    date: 2022-5
-    icon: 🎉
+- title: COMICS: End-to-end Bi-grained Contrastive Learning for Multi-face Forgery Detection
+  date: 2024
+  icon: 🎉
 
-  - title: One paper accepted by TCC! Congrats to Xiaoguo!
-    date: 2022-5
-    icon: 🎉
+- title: A Fast CU Partition Algorithm for AVS3 Based on Adaptive Tree Search and Pruning Optimization
+  date: 2024
+  icon: 🎉
 
-  - title: One paper accepted by TOMM (<b>CCF B</b>)! Congrats to Honghong!
-    date: 2022-4
-    icon: 🎉
+- title: A Novel Framework for High Resolution Air Quality Index Prediction with Interpretable Artificial Intelligence and Uncertainties Estimation
+  date: 2024
+  icon: 🎉
 
-  - title: One paper accepted by IEEE Transactions on Broadcasting! Congrats!
-    date: 2022-4
-    icon: 🎉
+- title: A Diffusion Model Based Quality Enhancement Method for HEVC Compressed Video
+  date: 2024
+  icon: 🎉
 
-  - title: One paper accepted by NAACL (<b>CSL@UCAS A</b>)! Congrats!
-    date: 2022-4
-    icon: 🎉
-
-  - title:  One paper accepted by TVT! Congrats!
-    date: 2022-2
-    icon: 🎉
-
-  - title: One paper accepted by IEEE Transactions on Broadcasting! Congrats!
-    date: 2022-2
-    icon: 🎉
-
-  - title: "Two papers accepted by ICLR (one <b style='color: red'>spotlight</b> <b>CSL@UCAS A+</b> and one poster <b>CSL@UCAS A</b>)!"
-    date: 2022-1
-    icon: 🎉
-
-  - title: "One papers accepted by TOSN  (<b>CCF B</b>)! Congrats to Hangcheng!"
-    date: 2022-1
-    icon: 🎉
+- title: FakeTracer: Catching Face-swap DeepFakes Via Implanting Traces in Training
+  date: 2024
+  icon: 🎉
 
 # 中文主页展示的新闻
 zh:
-  - title: 两篇文章被ACM MM接收(<b>CCF A</b>)! 恭喜航呈!
-    date: 2022-6
-    icon: 🎉
-  - title: 一篇文章被TMM(<b>CCF B</b>)接收! 恭喜!
-    date: 2022-6
-    icon: 🎉
+ - title: YOLO-VSF: an Improved YOLO Model by Incorporating Attention Mechanism for Object Detection in Traffic Scenes
+  date: 2024-07
+  icon: 🎉
+  
+- title: Enhancing Adversarial Robustness of DNNS Via Weight Decorrelation in Training
+  date: 2024
+  icon: 🎉
 
-  - title: 一篇文章被TCSVT(<b>CCF B</b>)接收! 恭喜!
-    date: 2022-6
-    icon: 🎉
+- title: LandmarkBreaker: A Proactive Method to Obstruct DeepFakes Via Disrupting Facial Landmark Extraction
+  date: 2024
+  icon: 🎉
 
-  - title: 一篇文章被TBD接收! 恭喜泌文和宏虹!
-    date: 2022-5
-    icon: 🎉
+- title: Infrastructure-Side Point Cloud Object Detection Via Multi-Frame Aggregation and Multi-Scale Fusion
+  date: 2024
+  icon: 🎉
 
-  - title: 一篇文章被INFOCOM接收(<b>CCF A</b>)!
-    date: 2022-5
-    icon: 🎉
+- title: Adaptive Meta-Knowledge Transfer Network for Few-Shot Object Detection in Very High Resolution Remote Sensing Images
+  date: 2024
+  icon: 🎉
 
-  - title: 一篇文章被TDSC接收(<b>CCF A</b>)!
-    date: 2022-5
-    icon: 🎉
+- title: AdaNI: Adaptive Noise Injection to Improve Adversarial Robustness
+  date: 2024
+  icon: 🎉
 
-  - title: 一篇文章被TPDS接收(<b>CCF A</b>)!
-    date: 2022-5
-    icon: 🎉
+- title: CenterNet Plus Plus for Object Detection
+  date: 2024
+  icon: 🎉
 
-  - title: 一篇文章被TCC接收! 恭喜小国!
-    date: 2022-5
-    icon: 🎉
+- title: COMICS: End-to-end Bi-grained Contrastive Learning for Multi-face Forgery Detection
+  date: 2024
+  icon: 🎉
 
-  - title: 一篇文章被TOMM接收(<b>CCF B</b>)! 恭喜宏虹!
-    date: 2022-4
-    icon: 🎉
+- title: A Fast CU Partition Algorithm for AVS3 Based on Adaptive Tree Search and Pruning Optimization
+  date: 2024
+  icon: 🎉
 
-  - title: 一篇文章被IEEE Transactions on Broadcasting接收! 恭喜!
-    date: 2022-4
-    icon: 🎉
+- title: A Novel Framework for High Resolution Air Quality Index Prediction with Interpretable Artificial Intelligence and Uncertainties Estimation
+  date: 2024
+  icon: 🎉
 
-  - title: 一篇文章被NAACL接收(<b>CSL@UCAS A</b>)!
-    date: 2022-4
-    icon: 🎉
+- title: A Diffusion Model Based Quality Enhancement Method for HEVC Compressed Video
+  date: 2024
+  icon: 🎉
 
-  - title: 一篇文章被TVT接收! 恭喜!
-    date: 2022-2
-    icon: 🎉
-
-  - title: 一篇文章被IEEE Transactions on Broadcasting接收! 恭喜!
-    date: 2022-2
-    icon: 🎉
-
-  - title: "两篇文章被ICLR接收(一篇<b style='color: red'>spotlight</b> <b>CSL@UCAS A+</b> 和一篇poster <b>CSL@UCAS A</b>)!!"
-    date: 2022-1
-    icon: 🎉
-
-  - title: "一篇文章被TOSN接收(<b>CCF B</b>)! 恭喜航呈!"
-    date: 2022-1
-    icon: 🎉
+- title: FakeTracer: Catching Face-swap DeepFakes Via Implanting Traces in Training
+  date: 2024
+  icon: 🎉
