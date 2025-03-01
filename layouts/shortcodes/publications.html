@@ -1,5 +1,28 @@
 <div>
-    <h2 id="Survey">Survey</h2>
+    <h2 id="2025">2025</h2>
+<ul>
+    {{ range .Site.Data.publications2023 }}
+        <li>
+            <p><b><a href="{{ .link }}">{{ .title }}
+                {{ if .highlight }}
+                <span style="color: red;">
+                    ({{ .highlight }})
+                </span>
+                {{ end }}
+            </a></b></p>
+            <p>{{.authors}}</p>
+            <p><i>{{.publication}}</i>
+                {{ if .ccf_rank }}
+                , <b>CCF Rank {{.ccf_rank}}</b>
+                {{ end }}
+                {{ if .ucas_rank }}
+                , <b>AAAI@UCAS Rank {{.ucas_rank}}</b>
+                {{ end }}
+            </p>
+        </li>
+    {{ end }}
+</ul>
+    <h2 id="2024">2024</h2>
     <ul>
         {{ range .Site.Data.publications.survey }}
             <li>
@@ -16,13 +39,35 @@
                     , <b>CCF Rank {{.ccf_rank}}</b>
                     {{ end }}
                     {{ if .ucas_rank }}
-                    , <b>CSL@UCAS Rank {{.ucas_rank}}</b>
+                    , <b>AAAI@UCAS Rank {{.ucas_rank}}</b>
                     {{ end }}
                 </p>
             </li>
         {{ end }}
     </ul>
-
+    <h2 id="2023">2023</h2>
+    <ul>
+        {{ range .Site.Data.publications2023 }}
+            <li>
+                <p><b><a href="{{ .link }}">{{ .title }}
+                    {{ if .highlight }}
+                    <span style="color: red;">
+                        ({{ .highlight }})
+                    </span>
+                    {{ end }}
+                </a></b></p>
+                <p>{{.authors}}</p>
+                <p><i>{{.publication}}</i>
+                    {{ if .ccf_rank }}
+                    , <b>CCF Rank {{.ccf_rank}}</b>
+                    {{ end }}
+                    {{ if .ucas_rank }}
+                    , <b>AAAI@UCAS Rank {{.ucas_rank}}</b>
+                    {{ end }}
+                </p>
+            </li>
+        {{ end }}
+    </ul>
     <h2 id="2022">2022</h2>
     <ul>
         {{ range .Site.Data.publications.in2022 }}
@@ -40,7 +85,7 @@
                     , <b>CCF Rank {{.ccf_rank}}</b>
                     {{ end }}
                     {{ if .ucas_rank }}
-                    , <b>CSL@UCAS Rank {{.ucas_rank}}</b>
+                    , <b>AAAI@UCAS Rank {{.ucas_rank}}</b>
                     {{ end }}
                 </p>
             </li>
@@ -64,7 +109,7 @@
                     , <b>CCF Rank {{.ccf_rank}}</b>
                     {{ end }}
                     {{ if .ucas_rank }}
-                    , <b>CSL@UCAS Rank {{.ucas_rank}}</b>
+                    , <b>AAAI@UCAS Rank {{.ucas_rank}}</b>
                     {{ end }}
                 </p>
             </li>

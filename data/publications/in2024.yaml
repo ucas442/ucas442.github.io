@@ -1,0 +1,29 @@
+- title: Enhancing Adversarial Robustness of DNNS Via Weight Decorrelation in Training
+  authors: Cong Zhang,Yuezun Li,Honggang Qi,Siwei Lyu
+  publication: IEEE International Conference on Acoustics, Speech, and Signal Processingpp.4660-4664,
+    (2024)
+  link: https://doi.org/10.1109/icassp48485.2024.10447737
+  highlight: Cong
+- title: 'LandmarkBreaker: A Proactive Method to Obstruct DeepFakes Via Disrupting
+    Facial Landmark Extraction'
+  authors: Yuezun Li,Pu Sun,Honggang Qi,Siwei Lyu
+  publication: Computer Vision and Image Understanding（2024）
+  link: https://doi.org/10.1016/j.cviu.2024.103935
+  highlight: Yuezun
+- title: Infrastructure-Side Point Cloud Object Detection Via Multi-Frame Aggregation
+    and Multi-Scale Fusion
+  authors: Ye Yue,Honggang Qi,Yongqiang Deng, Juanjuan Li, Hao Liang,Jun Miao
+  publication: IEEE TRANSACTIONS ON INTELLIGENT TRANSPORTATION SYSTEMS(2024)
+  link: https://doi.org/10.1109/tits.2024.3491784
+  highlight: Ye
+- title: Adaptive Meta-Knowledge Transfer Network for Few-Shot Object Detection in
+    Very High Resolution Remote Sensing Images
+  authors: Xi Chen, Wanyue Jiang,Honggang Qi,Min Liu, Heping Ma,Philip L. H. Yu,Ying
+    Wen,Zhen Han, Shuqi Zhang,Guitao Cao
+  publication: INTERNATIONAL JOURNAL OF APPLIED EARTH OBSERVATION AND GEOINFORMATION(2024)
+  link: https://doi.org/10.1016/j.jag.2024.103675
+  highlight: Xi
+- title: 'AdaNI: Adaptive Noise Injection to Improve Adversarial Robustness'
+  authors: Yuezun Li, Cong Zhang,Honggang Qi,Siwei Lyu
+  publication: Computer Vision and Image Understanding（2024）
+  link: https://doi.org/10.1016/j.cviu.2023.103855
