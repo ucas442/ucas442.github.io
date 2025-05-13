@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AAAI LAB - 中国科学院大学先进AI应用技术实验室</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link href="https://api.map.baidu.com/api?v=3.0&ak=您的百度地图AK" rel="stylesheet">
+	<style>
+		.contact-icon {
+			@apply w-5 h-5 mr-2 text-blue-600;
+		}
+
+		.research-area {
+			@apply mb-2 pl-4 border-l-4 border-blue-500;
+		}
+
+		.position-item {
+			@apply mb-6 p-4 bg-gray-50 rounded-lg shadow-sm;
+		}
+
+		.team-card {
+			@apply p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow;
+		}
+
+		.publication-item {
+			@apply mb-3 p-3 bg-gray-50 rounded hover:bg-blue-50;
+		}
+	</style>
+</head>
+
+<body class="font-sans bg-gray-50 text-gray-800">
+	<div class="container mx-auto px-4 py-8 max-w-6xl">
+		<!-- Header -->
+		<header class="mb-12 text-center">
+			<h1 class="text-4xl font-bold text-blue-800 mb-2">先进AI应用技术实验室</h1>
+			<p class="text-xl text-gray-600">AAAI LAB - 中国科学院大学计算机科学与技术学院</p>
+		</header>
+
+		<!-- Navigation -->
+		<nav class="mb-12 bg-blue-800 text-white rounded-lg shadow">
+			<ul class="flex flex-wrap justify-center p-4">
+				<li class="mx-4"><a href="#" class="hover:text-blue-200">首页</a></li>
+				<li class="mx-4"><a href="#contact" class="hover:text-blue-200">联系我们</a></li>
+				<li class="mx-4"><a href="#join" class="hover:text-blue-200">加入我们</a></li>
+				<li class="mx-4"><a href="#team" class="hover:text-blue-200">研究队伍</a></li>
+				<li class="mx-4"><a href="#research" class="hover:text-blue-200">科学研究</a></li>
+				<li class="mx-4"><a href="#publications" class="hover:text-blue-200">科研成果</a></li>
+				<li class="mx-4"><a href="#resources" class="hover:text-blue-200">资源共享</a></li>
+			</ul>
+		</nav>
+
+		<!-- Contact Section -->
+		<section id="contact" class="mb-16">
+			<h2 class="text-3xl font-bold mb-6 text-blue-700 border-b-2 border-blue-200 pb-2">联系我们</h2>
+
+			<div class="grid md:grid-cols-2 gap-8">
+				<div>
+					<h3 class="text-xl font-semibold mb-4">联系方式：</h3>
+					<div class="space-y-4">
+						<div class="flex items-start">
+							<svg xmlns="http://www.w3.org/2000/svg" class="contact-icon" fill="none" viewBox="0 0 24 24"
+								stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+									d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+									d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+							</svg>
+							<div>
+								<p>地址：北京市怀柔区雁栖湖东路1号</p>
+								<p>中国科学院大学雁栖湖校区西区学园二442</p>
+								<p>邮编：101408</p>
+							</div>
+						</div>
+
+						<div class="flex items-center">
+							<svg xmlns="http://www.w3.org/2000/svg" class="contact-icon" fill="none" viewBox="0 0 24 24"
+								stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+									d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+							</svg>
+							<p>邮箱：hgqi(at)ucas(dot)ac(dot)cn</p>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<h3 class="text-xl font-semibold mb-4">实验室位置：</h3>
+					<div id="map-container" class="h-64 rounded-lg overflow-hidden shadow-md">
+						<!-- 百度地图将在这里显示 -->
+						<iframe
+							src="https://map.baidu.com/search/%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E9%99%A2%E5%A4%A7%E5%AD%A6%E9%9B%81%E6%A0%96%E6%B9%96%E6%A0%A1%E5%8C%BA/@12958000.6,4842000,19z?querytype=s&da_src=shareurl&wd=%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E9%99%A2%E5%A4%A7%E5%AD%A6%E9%9B%81%E6%A0%96%E6%B9%96%E6%A0%A1%E5%8C%BA&c=131&src=0&pn=0&s=inf%3D0&from=webmap&biz_forward=%7B%22scaler%22%3A2%2C%22styles%22%3A%22pl%22%7D&device_ratio=2"
+							width="100%" height="100%" frameborder="0" style="border:0"></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Join Us Section -->
+		<section id="join" class="mb-16">
+			<h2 class="text-3xl font-bold mb-6 text-blue-700 border-b-2 border-blue-200 pb-2">加入我们</h2>
+
+			<div class="mb-8">
+				<h3 class="text-2xl font-semibold mb-4">研究领域：</h3>
+				<ul class="space-y-2">
+					<li class="research-area">人工智能在临床医学和生物学领域的应用</li>
+					<li class="research-area">多模态大模型</li>
+					<li class="research-area">计算机视觉</li>
+					<li class="research-area">医学影像处理</li>
+					<li class="research-area">AI for science</li>
+				</ul>
+			</div>
+
+			<div>
+				<h3 class="text-2xl font-semibold mb-4">申请人基本条件：</h3>
+
+				<!-- Position 1 -->
+				<div class="position-item">
+					<h4 class="text-xl font-medium mb-3">1. 硕士生约2-3人/年</h4>
+					<ol class="list-decimal pl-6 space-y-2">
+						<li>已获得或即将获得计算机、医学、生物、数学、物理或工程等相关专业本科及以上学位，多学科背景优先</li>
+						<li>当年统考报考中国科学院大学或推免报考中国科学院大学计算机科学与技术学院</li>
+						<li>对科学研究具有浓厚兴趣，并有较强的提出问题和科研的能力</li>
+						<li>需要满足以下至少一条条件
+							<ol class="list-decimal pl-6 mt-2 space-y-1">
+								<li>熟练掌握深度学习相关理论与技术，包括但不限于
+									pytorch框架下对常规神经网络的搭建与优化，使用pandas/numpy进行数组变换与数据处理分析，使用opencv和PIL进行图像处理，使用matplotlib进行学术绘图
+								</li>
+								<li>以第一作者身份发表文章于SCI/CCF收录期刊/会议</li>
+								<li>参与发表文章于Nature Index收录期刊</li>
+							</ol>
+						</li>
+					</ol>
+				</div>
+
+				<!-- Position 2 -->
+				<div class="position-item">
+					<h4 class="text-xl font-medium mb-3">2. 博士生（推荐免试入学）约1-2人/年</h4>
+					<ol class="list-decimal pl-6 space-y-2">
+						<li>已获得或即将获得计算机、医学、生物、数学、物理或工程等相关专业本科及以上学位，多学科背景优先</li>
+						<li>当年推免报考中国科学院大学计算机科学与技术学院</li>
+						<li>对科学研究具有浓厚兴趣，并有较强的提出问题和科研的能力</li>
+						<li>需要满足以下至少一条条件
+							<ol class="list-decimal pl-6 mt-2 space-y-1">
+								<li>熟练掌握深度学习相关理论与技术，包括但不限于
+									pytorch框架下对常规神经网络的搭建与优化，使用pandas/numpy进行数组变换与数据处理分析，使用opencv和PIL进行图像处理，使用matplotlib进行学术绘图
+								</li>
+								<li>以第一作者身份发表文章于SCI二区（中科院）/CCF-B及以上收录期刊/会议</li>
+								<li>参与发表文章于Nature Index收录期刊（作者排序前5位）</li>
+							</ol>
+						</li>
+					</ol>
+				</div>
+
+				<!-- Position 3 -->
+				<div class="position-item">
+					<h4 class="text-xl font-medium mb-3">3. 博士生（申请-考核制入学）约1-2人/年</h4>
+					<ol class="list-decimal pl-6 space-y-2">
+						<li>已获得或即将获得计算机、医学、生物、数学、物理或工程等相关专业硕士及以上学位，多学科背景优先</li>
+						<li>当年报考中国科学院大学计算机科学与技术学院</li>
+						<li>对科学研究具有浓厚兴趣，并有较强的提出问题和科研的能力</li>
+						<li>熟练掌握深度学习相关理论与技术，包括但不限于
+							pytorch框架下对常规神经网络的搭建与优化，使用pandas/numpy进行数组变换与数据处理分析，使用opencv和PIL进行图像处理，使用matplotlib进行学术绘图
+						</li>
+						<li>需要满足以下至少一条条件
+							<ol class="list-decimal pl-6 mt-2 space-y-1">
+								<li>以第一作者身份发表文章于SCI一区（中科院）/CCF-A及以上收录期刊/会议</li>
+								<li>以共同第一作者/第二作者身份发表文章于Nature Index收录期刊</li>
+								<li>参与发表文章于Nature/Cell/Science/Lancet/BMJ/JAMA/NEJM（作者排序前5位）</li>
+							</ol>
+						</li>
+					</ol>
+				</div>
+
+				<!-- Position 4 -->
+				<div class="position-item">
+					<h4 class="text-xl font-medium mb-3">4. 实习生（推荐入学）线下3-4人/学期 线上不限</h4>
+					<ol class="list-decimal pl-6 space-y-2">
+						<li>计算机、医学、生物、数学、物理或工程等相关专业在读，多学科背景优先</li>
+						<li>本科一、二、三年级（五年制四年级），硕士一、二年级</li>
+						<li>对科学研究具有浓厚兴趣，并有较强的提出问题和科研的能力</li>
+						<li>具备基本的Python编程能力、信息检索能力、沟通交流能力</li>
+						<li>有意向于本课题组攻读硕士/博士学位</li>
+					</ol>
+				</div>
+			</div>
+
+			<div class="mt-8 bg-blue-50 p-6 rounded-lg">
+				<h3 class="text-xl font-semibold mb-3">申请材料：</h3>
+				<ol class="list-decimal pl-6 space-y-2">
+					<li>个人简历、个人陈述和成绩单（必交）</li>
+					<li>代表性论文、获奖证明、推荐信和其他补充材料（选交）</li>
+					<li>申请截止时间：长期有效</li>
+					<li>将材料打包投递至ucas_chp@163.com</li>
+				</ol>
+			</div>
+		</section>
+
+		<!-- Team Section -->
+		<section id="team" class="mb-16">
+			<h2 class="text-3xl font-bold mb-6 text-blue-700 border-b-2 border-blue-200 pb-2">研究队伍</h2>
+
+			<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+				<!-- Faculty -->
+				<div class="team-card">
+					<h3 class="text-lg font-semibold text-blue-800">齐洪钢</h3>
+					<p class="text-sm text-gray-600 mb-2">教授、博导、计算机科学与技术学院党委副书记</p>
+					<p class="text-sm">hgqi(at)ucas(dot)ac(dot)cn</p>
+				</div>
+
+				<div class="team-card">
+					<h3 class="text-lg font-semibold text-blue-800">潘宬玚</h3>
+					<p class="text-sm text-gray-600 mb-2">废物</p>
+					<p class="text-sm">ucas_chp(at)163(dot)com</p>
+				</div>
+
+				<!-- PhD Students -->
+				<div class="team-card">
+					<h3 class="text-lg font-semibold text-blue-800">张聪</h3>
+					<p class="text-sm text-gray-600">2020级博士生</p>
+				</div>
+
+				<div class="team-card">
+					<h3 class="text-lg font-semibold text-blue-800">尹基航</h3>
+					<p class="text-sm text-gray-600">2020级博士生</p>
+				</div>
+
+				<div class="team-card">
+					<h3 class="text-lg font-semibold text-blue-800">孙普</h3>
+					<p class="text-sm text-gray-600">2021级博士生</p>
+				</div>
+
+				<div class="team-card">
+					<h3 class="text-lg font-semibold text-blue-800">朱冠林</h3>
+					<p class="text-sm text-gray-600">2023级博士生</p>
+				</div>
+
+				<div class="team-card">
+					<h3 class="text-lg font-semibold text-blue-800">梁天骄</h3>
+					<p class="text-sm text-gray-600">2023级博士生</p>
+				</div>
+
+				<div class="team-card">
+					<h3 class="text-lg font-semibold text-blue-800">李翔宇</h3>
+					<p class="text-sm text-gray-600">2024级博士生</p>
+				</div>
+
+				<div class="team-card">
+					<h3 class="text-lg font-semibold text-blue-800">苏妍</h3>
+					<p class="text-sm text-gray-600">2025级博士生</p>
+				</div>
+
+				<div class="team-card">
+					<h3 class="text-lg font-semibold text-blue-800">田人志</h3>
+					<p class="text-sm text-gray-600">2025级博士生</p>
+				</div>
+
+				<!-- Master Students -->
+				<div class="team-card">
+					<h3 class="text-lg font-semibold text-blue-800">赵芃康</h3>
+					<p class="text-sm text-gray-600">2022级硕士生</p>
+				</div>
+
+				<div class="team-card">
+					<h3 class="text-lg font-semibold text-blue-800">杜鹏翔</h3>
+					<p class="text-sm text-gray-600">2022级硕士生</p>
+				</div>
+
+				<div class="team-card">
+					<h3 class="text-lg font-semibold text-blue-800">李思</h3>
+					<p class="text-sm text-gray-600">2022级硕士生</p>
+				</div>
+
+				<div class="team-card">
+					<h3 class="text-lg font-semibold text-blue-800">周昊</h3>
+					<p class="text-sm text-gray-600">2023级硕士生</p>
+				</div>
+
+				<div class="team-card">
+					<h3 class="text-lg font-semibold text-blue-800">章怡</h3>
+					<p class="text-sm text-gray-600">2023级硕士生</p>
+				</div>
+
+				<div class="team-card">
+					<h3 class="text-lg font-semibold text-blue-800">李沁隆</h3>
+					<p class="text-sm text-gray-600">2024级硕士生</p>
+				</div>
+
+				<div class="team-card">
+					<h3 class="text-lg font-semibold text-blue-800">陈奕阳</h3>
+					<p class="text-sm text-gray-600">2024级硕士生</p>
+				</div>
+
+				<div class="team-card">
+					<h3 class="text-lg font-semibold text-blue-800">吴秋霖</h3>
+					<p class="text-sm text-gray-600">202
+					<div class="team-card">
+						<h3 class="text-lg font-semibold text-blue-800">崔锦岳</h3>
+						<p class="text-sm text-gray-600">2024级硕士生</p>
+					</div>
+
+					<div class="team-card">
+						<h3 class="text-lg font-semibold text-blue-800">李优</h3>
+						<p class="text-sm text-gray-600">2025级硕士生</p>
+					</div>
+				</div>
+		</section>
+
+		<!-- Research Section -->
+		<section id="research" class="mb-16">
+			<h2 class="text-3xl font-bold mb-6 text-blue-700 border-b-2 border-blue-200 pb-2">科学研究</h2>
+
+			<div class="grid md:grid-cols-2 gap-6">
+				<div class="p-4 bg-white rounded-lg shadow-sm">
+					<h3 class="text-xl font-semibold mb-3 text-blue-800">研究方向</h3>
+					<ul class="space-y-2">
+						<li class="flex items-start">
+							<svg class="w-5 h-5 text-blue-500 mr-2 mt-0.5" fill="none" stroke="currentColor"
+								viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+									d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+							</svg>
+							<span>基于生物医学的大模型与智能体开发</span>
+						</li>
+						<li class="flex items-start">
+							<svg class="w-5 h-5 text-blue-500 mr-2 mt-0.5" fill="none" stroke="currentColor"
+								viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+									d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+							</svg>
+							<span>基于多模态数据的医学影像处理</span>
+						</li>
+						<li class="flex items-start">
+							<svg class="w-5 h-5 text-blue-500 mr-2 mt-0.5" fill="none" stroke="currentColor"
+								viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+									d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+							</svg>
+							<span>基于影像组学的多向重建方法研究</span>
+						</li>
+						<li class="flex items-start">
+							<svg class="w-5 h-5 text-blue-500 mr-2 mt-0.5" fill="none" stroke="currentColor"
+								viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+									d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+							</svg>
+							<span>人工智能驱动的生物、医学等科学研究</span>
+						</li>
+						<li class="flex items-start">
+							<svg class="w-5 h-5 text-blue-500 mr-2 mt-0.5" fill="none" stroke="currentColor"
+								viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+									d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+							</svg>
+							<span>大规模人工智能数据集构建</span>
+						</li>
+					</ul>
+				</div>
+
+				<div class="p-4 bg-white rounded-lg shadow-sm">
+					<h3 class="text-xl font-semibold mb-3 text-blue-800">实验室简介</h3>
+					<p class="text-gray-700 leading-relaxed">
+						先进AI应用技术实验室（AAAI LAB）由齐洪钢教授组建，现隶属于中国科学院大学计算机科学与技术学院。目前，AAAI
+						LAB主要成员包括博士/硕士研究生约30名，发表论文150余篇，Google
+						scholar引用超过10000次。实验室的研究领域专注于前沿人工智能技术与多领域交叉应用研究，如医学、法律、工程等应用领域。实验室力求营造一个融洽、交流、探索、思辨、互助、合作的科研氛围。
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Publications Section -->
+		<section id="publications" class="mb-16">
+			<h2 class="text-3xl font-bold mb-6 text-blue-700 border-b-2 border-blue-200 pb-2">科研成果</h2>
+
+			<div class="mb-8">
+				<h3 class="text-2xl font-semibold mb-4">发表论文</h3>
+				<div class="bg-white p-4 rounded-lg shadow-sm mb-4">
+					<p class="mb-3">齐洪钢教授发表论文列表：</p>
+					<a href="https://www.aminer.cn/profile/honggang-qi/53f43960dabfaec22ba9d9f7" target="_blank"
+						class="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded hover:bg-blue-200 transition-colors">
+						AMiner学术主页
+					</a>
+				</div>
+
+				<div class="bg-blue-50 p-4 rounded-lg">
+					<h4 class="text-lg font-medium mb-2 text-blue-800">高影响力论文</h4>
+					<p class="text-sm text-gray-600 mb-3">按引用搜索 筛选一千引以上文章 / 按期刊级别筛选 筛选SCI一区/CCFA</p>
+
+					<div class="publication-item">
+						<div class="font-medium">论文标题示例 1</div>
+						<div class="text-sm text-gray-600">Journal Name, 2023, Impact Factor: 10.5</div>
+						<div class="text-sm">引用次数: 1200+</div>
+					</div>
+
+					<div class="publication-item">
+						<div class="font-medium">论文标题示例 2</div>
+						<div class="text-sm text-gray-600">Conference Name (CCF-A), 2022</div>
+						<div class="text-sm">引用次数: 1500+</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="grid md:grid-cols-3 gap-4">
+				<div class="bg-white p-4 rounded-lg shadow-sm">
+					<h3 class="text-xl font-semibold mb-3 text-blue-800">科技奖项</h3>
+					<p class="text-gray-600">（待补充）</p>
+				</div>
+
+				<div class="bg-white p-4 rounded-lg shadow-sm">
+					<h3 class="text-xl font-semibold mb-3 text-blue-800">授权专利</h3>
+					<p class="text-gray-600">（待补充）</p>
+				</div>
+
+				<div class="bg-white p-4 rounded-lg shadow-sm">
+					<h3 class="text-xl font-semibold mb-3 text-blue-800">软件著作权</h3>
+					<p class="text-gray-600">（待补充）</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Resources Section -->
+		<section id="resources" class="mb-16">
+			<h2 class="text-3xl font-bold mb-6 text-blue-700 border-b-2 border-blue-200 pb-2">资源共享</h2>
+
+			<div class="mb-8">
+				<h3 class="text-2xl font-semibold mb-4">数据库</h3>
+				<div class="bg-white p-4 rounded-lg shadow-sm">
+					<h4 class="text-lg font-medium mb-2">LCFP-14M Dataset</h4>
+					<a href="https://doi.org/10.57760/sciencedb.18735" target="_blank"
+						class="text-blue-600 hover:underline">https://doi.org/10.57760/sciencedb.18735</a>
+					<p class="text-gray-600 mt-2">（待补充）</p>
+				</div>
+			</div>
+
+			<div>
+				<h3 class="text-2xl font-semibold mb-4">学术交流会</h3>
+				<div class="bg-blue-50 p-4 rounded-lg">
+					<p class="text-gray-600 mb-3">邀请教授来访（暂无）</p>
+					<p>实验室学术报告PPT（待上传）</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="mt-12 pt-8 border-t border-gray-200 text-center text-gray-600 text-sm">
+			<p>© 2023 中国科学院大学先进AI应用技术实验室. 保留所有权利.</p>
+			<p class="mt-2">地址：北京市怀柔区雁栖湖东路1号 中国科学院大学雁栖湖校区西区学园二442</p>
+			<p class="mt-1">邮箱：hgqi(at)ucas(dot)ac(dot)cn</p>
+		</footer>
+	</div>
+
+	<script>
+		// 百度地图初始化
+		function initMap() {
+			// 这里需要替换为您的百度地图AK
+			// 实际使用时需要申请百度地图开发者账号获取AK
+			// 示例代码：
+			/*
+			var map = new BMap.Map("map-container");
+			var point = new BMap.Point(116.674, 40.414);
+			map.centerAndZoom(point, 15);
+			var marker = new BMap.Marker(point);
+			map.addOverlay(marker);
+			*/
+		}
+
+		// 页面加载完成后初始化地图
+		window.onload = function () {
+			initMap();
+		};
+	</script>
+</body>
+
+</html>
